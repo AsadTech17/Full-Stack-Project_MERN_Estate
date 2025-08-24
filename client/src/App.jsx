@@ -10,7 +10,7 @@ import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { signInSuccess } from "./redux/user/userSlice";
 import CreateListing from './pages/CreateListing'
-import UpdateListing from './pages/updateListing'
+import UpdateListing from './pages/UpdateListing'
 import Listing from './pages/Listing';
 import Search from './pages/Search'
 

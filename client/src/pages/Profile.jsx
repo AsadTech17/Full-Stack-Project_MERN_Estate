@@ -124,7 +124,7 @@ function Profile() {
       dispatch(deleteUserSuccess(data));
       localStorage.removeItem("user");
     } catch (error) {
-      dispatch(deleteUserFailure(data.message));
+      dispatch(deleteUserFailure(error.message));
     }
   };
 
