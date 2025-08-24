@@ -5,7 +5,7 @@ import SignUp from './pages/SignUp'
 import About from './pages/About'
 import Profile from './pages/Profile'
 import Header from './components/Header'
-import PrivateRoute from './components/privateRoute'
+import PrivateRoute from './components/PrivateRoute'
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { signInSuccess } from "./redux/user/userSlice";
